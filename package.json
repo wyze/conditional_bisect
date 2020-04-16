@@ -1,0 +1,22 @@
+{
+  "name": "conditional_bisect",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Modifies bsconfig.json to add settings for bisect_ppx.",
+  "license": "MIT",
+  "repository": "wyze/conditional_bisect",
+  "author": {
+    "name": "Neil Kistner",
+    "email": "neil.kistner@gmail.com",
+    "url": "https://neilkistner.com"
+  },
+  "scripts": {
+    "postversion": "github-release",
+    "test": "deno test -A test.ts",
+    "version": "changelog"
+  },
+  "devDependencies": {
+    "@wyze/changelog": "^1.0.0",
+    "@wyze/github-release": "^1.1.1"
+  }
+}
