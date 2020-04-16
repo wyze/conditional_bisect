@@ -1,7 +1,7 @@
 {
   "name": "conditional_bisect",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Modifies bsconfig.json to add settings for bisect_ppx.",
   "license": "MIT",
   "repository": "wyze/conditional_bisect",
