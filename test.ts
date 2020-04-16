@@ -1,8 +1,8 @@
 import {
   assertEquals,
   assertThrowsAsync,
-} from "https://deno.land/std/testing/asserts.ts";
-import { readJson, writeJson } from "https://deno.land/std/fs/mod.ts";
+} from "https://deno.land/std@v0.40.0/testing/asserts.ts";
+import { readJson, writeJson } from "https://deno.land/std@v0.40.0/fs/mod.ts";
 
 async function setup(contents: Record<string, any>) {
   const filename = "bsconfig.json";
